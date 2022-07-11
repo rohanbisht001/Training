@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Local Storage </title>
+            <style>
+                body {
+                    background-color: rgb(231, 255, 255);
+                    padding-left: 300px;
+                    font-family: 'Times New Roman', Times, serif;
+                }
+            </style>
+</head>
+
+<body>
+    <form id="appointmentform">
+    <h3> Hospital Appointment</h3>
+            <label for="name">Name</label>
+            <input type="text" id="fname" name="fname" placeholder="First" />
+            <input type="text" id="lname" name="lname" placeholder="Last" />
+        <br><br>
+        <label for="phone">Phone number</label>
+        <input type="tel" id="phone" name="phone" placeholder="##########">
+        <label for="email">Email ID</label>
+        <input type="email" id="email" name="email" required/>
+        <br><br>
+        <label for="dob">Date of Birth</label>
+        <input type="date" id="dob" name="dob" placeholder="MM/DD/YYYY"/>
+        <label for="Appointment">Appointment Date</label>
+        <input type="date" id="adate" name="adate" placeholder="MM/DD/YYYY"/>
+        <label for="appointment time">Appointment Time</label>
+        <input type="time" id="atime" name="atime" placeholder="HH:MM AM"/>
+        <br><br>
+
+            <label for="Department">Clinical Department:</label>
+            <select id="Department" name="Department" >
+                <option value="department">Select a clinical department</option>
+                <option value="surgery">General surgery</option>
+                <option value="Cardiology department">Cardiology department</option>
+                <option value="Intensive care unit (ICU)">Intensive care unit (ICU)</option>
+                <option value="Operating theatre (OT)">Operating theatre (OT)</option>
+                <option value="Gynaecology department">Gynaecology department</option>
+                <option value="OPD">OPD</option>
+                <option value="Dental">Dental</option>
+            </select>
+       
+            <label for="Doctor">Doctor Name</label>
+            <select id="Doctor" name="Doctor">
+                <option value="name">Choose a doctor</option>
+                <option value="Dr.roop">Dr.Roop</option>
+                <option value="Dr.tinki">Dr tinki</option>
+                <option value="Dr.chinki">Dr chinki</option>
+                <option value="Dr.roopa">dr roopa</option>
+            </select>
+            <br><br>
+      
+            <label>Do you have any previous illeness?</label><br>
+            <input type="radio" id="yes" name="yes" value="yes"/>Yes         
+            <input type="radio" id="no" name="no" value="no">No
+            <br>
+        
+            <label>Do you have any medical issues?</label><br>
+            <input type="radio" id="yes1" name="yes1" value="yes1">Yes
+            <input type="radio" id="no1" name="no1" value="no1">No
+           <br>
+
+           <label>Have you visited our clinic before?</label><br>
+           <input type="radio" id="yes2" name="yes2" value="yes2">Yes
+           <input type="radio" id="no2" name="no2" value="no2">No
+          <br><br>
+
+            <input type="submit" value="SUBMIT"/>
+       
+    </form>
+</body>
+<script src="./localstore.js"></script>
+</html>

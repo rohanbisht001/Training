@@ -1,0 +1,103 @@
+[
+    {
+        "product_picture":"towel.jpg",
+        "name": "towel",
+        "brand": "zara",
+        "price": 1000,
+        "ratings": 4,
+        "category": "clothing",
+        "wishlist":"press here",
+        "description":"clickhere"
+
+    },
+    {
+        "product_picture":"bat.jpg",
+        "name": "cricket bat",
+        "brand": "reebok",
+        "price": 10000,
+        "ratings": 5,
+        "category": "sports",
+        "wishlist":"press here",
+        "description":"clickhere"
+    },
+    {
+        "product_picture":"perfume.jpg",
+        "name": "super",
+        "brand": "denver",
+        "price": 5000,
+        "ratings": 3.5,
+        "category": "perfume",
+        "wishlist":"press here",
+        "description":"clickhere"
+    },
+    {
+        "product_picture":"jeans.webp",
+        "name": "jeans",
+        "brand": "levis",
+        "price": 2000,
+        "ratings": 4,
+        "category": "clothing",
+        "wishlist":"press here",
+        "description":"clickhere"
+    },
+    {
+        "product_picture":"shirt.jpg",
+        "name": "shirt",
+        "brand": "raymonds",
+        "price": 20000,
+        "ratings": 4.5,
+        "category": "clothing",
+        "wishlist":"press here",
+        "description":"clickhere"
+    },
+    {
+        "product_picture":"diaper.jpeg",
+        "name": "diaper",
+        "brand": "huggies",
+        "price": 100,
+        "ratings": 2,
+        "category": "hygiene",
+        "wishlist":"press here",
+        "description":"clickhere"
+    },
+    {
+        "product_picture":"gold.jfif",
+        "name": "Gold chain",
+        "brand": "tanishq",
+        "price": 700000,
+        "ratings": 4.7,
+        "category": "Accessories",
+        "wishlist":"press here",
+        "description":"clickhere"
+    },
+    {
+        "product_picture":"phone.jfif",
+        "name": "Y15",
+        "brand": "vivo",
+        "price": 35000,
+        "ratings": 4.1,
+        "category": "mobile phones",
+        "wishlist":"press here",
+        "description":"clickhere"
+    },
+    {
+        "product_picture":"legion.jpg",
+        "name": "legion",
+        "brand": "lenovo",
+        "price": 10000,
+        "ratings": 4.9,
+        "category": "laptop",
+        "wishlist":"press here",
+        "description":"clickhere"
+    },
+    {
+        "product_picture":"beanie.jfif",
+        "name": "beanie",
+        "brand": "dope",
+        "price": 500,
+        "ratings": 1,
+        "category": "caps",
+        "wishlist":"press here",
+        "description":"clickhere"
+    }
+]

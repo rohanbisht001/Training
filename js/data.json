@@ -1,0 +1,30 @@
+[
+    {
+        "name": "rohan",
+        "age": 21,
+        "email": "abcd",
+        "gender": "m",
+        "profile": "img1.jpg"
+    },
+    {
+        "name": "roop",
+        "age": 23,
+        "email": "efgh",
+        "gender": "m",
+        "profile": "img2.jpg"
+    },
+    {
+        "name": "suraj",
+        "age": 24,
+        "email": "ijkl",
+        "gender": "t",
+        "profile": "img3.jpg"
+    },
+    {
+        "name": "tinki",
+        "age": 32,
+        "email": "mnop",
+        "gender": "f",
+        "profile": "img4.jpg"
+    }
+]

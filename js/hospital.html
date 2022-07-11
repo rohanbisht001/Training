@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> hospital </title>
+            <style>
+                #name {
+                    display: flex;
+                }
+
+                #lastname {
+                    padding-left: 100px;
+                }
+
+                #name2 {
+                    display: flex;
+                }
+
+                #appointmenttform {
+                    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                    font-weight: 200px;
+                }
+
+                body {
+                    background-color: rgb(153, 147, 137);
+                    padding-left: 300px;
+                    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                }
+            </style>
+</head>
+
+<body>
+    <h1> Hospital Appointment</h1>
+    <form id="appointmentform">
+        <div id="name">
+            <label for="firstname"><strong>First name </strong></label>
+            <label id="lastname" for="lastname"><strong>Last name</strong> </label>
+        </div>
+        <div id="name2">
+            <input type="text" id="fname" name="fname" placeholder="xyz" required maxlength="20"><br><br>
+            <input type="text" id="lname" name="lname" placeholder="abc" required maxlength="15"><br>
+        </div><br>
+        <label for="phone">Phone number</label><br>
+        <input type="number" id="phone" placeholder="######" required maxlength="10"><br>
+        <label for="email">Email ID</label><br>
+        <input type="email" id="email" placeholder="abc@gmail.com" required maxlength="30"><br>
+        <label for="dob">Date of Birth</label><br>
+        <input type="date" id="dob"><br>
+        <label for="Appointment">Appointment Date</label><br>
+        <input type="date" id="adate"><br>
+        <label for="atime">Appointment Time</label><br>
+        <input type="time" id="atime"><br>
+        </div>
+        <div id="Department"><br>
+            <label for="Department">Choose a Clinical Department:</label><br>
+            <select id="Department" name="Department" size="2">
+                <option value="surgery">General surgery</option>
+                <option value="Cardiology department">Cardiology department</option>
+                <option value="Intensive care unit (ICU)">Intensive care unit (ICU)</option>
+                <option value="Operating theatre (OT)">Operating theatre (OT)</option>
+                <option value="Gynaecology department">Gynaecology department</option>
+                <option value="OPD">OPD</option>
+                <option value="Dental">Dental</option>
+            </select>
+        </div>
+        <div id="Departmental">
+            <label for="Departmental">Choose a Departmental Doctor:</label><br>
+            <select id="Departmental" name="Departmental" size="2"><br>
+                <option value="Dr.roop">Dr.Roop</option>
+                <option value="Dr.tinki">Dr tinki</option>
+                <option value="Dr.chinki">Dr chinki</option>
+                <option value="Dr.roopa">dr roopa</option>
+            </select><br>
+        </div>
+        <div id="question"><br>
+            <label for="q1">Do you have any previous illeness?</label><br><br>
+            <input type="radio" id="q1" name="yes" value="yes">
+            <label for="yes">yes</label><br><br>
+            <input type="radio" id="q1" name="no" value="no">
+            <label for="no">no</label><br><br>
+            <label for="q2">Do you have any medical issues?</label><br><br>
+            <input type="radio" id="q2" name="yes" value="yes">
+            <label for="yes">yes</label><br><br>
+            <input type="radio" id="q1" name="no" value="no">
+            <label for="no">no</label><br><br>
+        </div>
+        <div id="submit">
+            <input type="submit"><br>
+        </div>
+    </form>
+</body>
+<script src="./hospital.js"></script>
+</html>

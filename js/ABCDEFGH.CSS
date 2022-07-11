@@ -1,0 +1,150 @@
+
+/*css reset code starts here*/
+ html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+     /* font-size: 100%; 
+     */
+    
+}
+/* HTML5 display-role rese for older browsers */
+ article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: inline-block;
+    
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/*css reset code ends here*/
+ *{
+    margin: 0px 0px;
+}
+header{
+    background-color: black;
+   
+    width: 1510px;
+   height: 100px;
+    
+}
+.container{
+    
+    display: inline-block;
+    width: 1400px;
+    justify-content: space-between;
+    margin: 0px auto;
+}
+/* .container-fluid{
+    display: inline-block;
+    width: 1400px;
+    justify-content: space-between; */
+ 
+/* } */
+#headernav{
+    display: inline-block;
+}
+#menu{
+    padding: 0px 20px;}
+#menu ul li{
+    display: inline-flex;
+    padding: 0px 0px;
+    text-align: center;
+}
+    
+
+.form{
+    padding: 25px 0px; 
+}
+#main{
+    background-color: rgb(47, 188, 47);
+    top: 10px;
+    height: 200px;
+}
+#main .rn1{
+    padding: 0px 150px;
+    font-size: 3vmax;
+    color: white;
+}
+#main .rn2{
+    padding: 0px 150px;
+    color: white;
+}
+#main .rn3{
+    padding: 0px 150px;
+}
+.middle1{
+    padding: 0px 150px;
+}
+.middle2{
+    padding: 0px 150px;
+}
+.images{
+    padding: 0px 150px;
+    display: inline;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 150px;
+}
+/* #images2{
+    padding: 50px 50px;
+    display: inline;
+    display: flex;
+}
+#images3{
+    padding: 50px 50px;
+    display: inline;
+    display: flex;
+} */
+.tn{
+    background-color: rgb(230, 160, 30);
+    height: 150px;
+    padding: 40px 150px;
+    display: inline;
+    display: flex;
+}
+#last{
+    padding: 5px 100px;
+    color: rgb(64, 64, 240);
+}
+#menu ul li a:link{
+    color: aliceblue;
+
+} 
+
+.form{
+    position: absolute;
+    top: 5px;
+    right: 230px;
+}
+.nav-item{
+    font-size: larger;
+    padding: 5px 5px;
+}

@@ -1,0 +1,16 @@
+@media screen and(min-width:200px) and (max-width:500px) {
+    .container {
+        width: 100%;
+        background-color: blue;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+@media screen and (min-width:700px) and (max-width:1200px){
+    .container{
+        width: 50%;
+        background-color: brown;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    }

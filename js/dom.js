@@ -1,0 +1,10 @@
+var divE1 = document.createElement("div");
+document.body.appendChild(divE1);
+var textE1 = document.createTextNode("ROHAN");
+divE1.appendChild(textE1);
+divE1.setAttribute("id","test");
+document.getElementById("test");
+var getById = document.getElementById("test");
+console.log(getById.InnerHTML);
+var name = "rohan";
+getById.innerHTML = "<p>hello"+name +"</p>";
