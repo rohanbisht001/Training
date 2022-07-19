@@ -14,7 +14,7 @@ async function renderproducts() {
     let html = '';
     products.forEach(product => {
         let htmlSegment = `<div class = "user">
-                               <img height="700px" width="700px" src = "./${product.product_picture}"/>
+                               <img height="100px" width="200px" src = "./${product.product_picture}"/>
                                <div class="name">Name -- "${product.name}"</div>
                                 <div class ="brand>Brand --"${product.brand}"</div>
                                <div class = "price">Price -- "${product.price}"</div>
